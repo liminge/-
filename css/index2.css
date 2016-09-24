@@ -1,5 +1,98 @@
 @import url("index3.css");
 
-header{
-	display: none;
+@media only screen and (min-width:1200px ) {
+	#designModo{
+		display: none;
+	}
+	#container{
+		margin-top:50px ;
+	}
+	
+}
+
+
+@media only screen and (min-width: 992px) {
+	
+	#designModo{
+		text-align: left;
+	}
+	.container-left .l-p1{
+		line-height: 100px;
+	}
+	
+	
+	.list6,.list5,.list4{
+		display:none;
+	}
+	
+}
+	
+@media only screen and (min-width:768px ) {
+	/*.container-left .l-p1{
+		line-height: 100px;
+	}*/
+	.list6,.list5{
+		display:none;
+		
+	}
+	.h-con-left,.last-con{
+		display: block;		
+	}
+	.list4{
+		display: none;
+	}
+	
+	.list-item{
+		font-size:100%;
+	}
+	.top-r1,.top-r2{
+		font-size: 100%;
+	}
+}
+@media only screen and (max-width:768px ) {
+	.container-right{
+		display: none;
+		
+	}
+	.container-left{
+		width:95%;
+		
+	}
+	.much-words{
+		height:auto;
+		
+	}
+	/*.list-item{
+		font-size:50%;
+	}*/
+	.list6,.list5{
+		display:block;
+		
+	}
+	.h-con-left,.last-con{
+		display: none;		
+	}
+	.list4{
+		display: none;
+	}
+	
+}
+
+
+@media only screen and (max-width:414px ) {
+	.list6,.list5{
+		display:none;
+		
+	}
+	.h-con-left,.last-con{
+		display: none;		
+	}
+	
+	.list4{
+		display: block;
+	}
+	
+	#foo-con{
+		font-size: 50%;
+	}
 }
